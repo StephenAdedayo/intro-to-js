@@ -31,7 +31,7 @@
 //     }
 // } 
 
-// inecAgeChecker(12)
+// inecAgeChecker(12)   
 
 
 // var num = 99
@@ -144,7 +144,7 @@
 
 
 // function getsign(){
-//     return Math.sign(3);
+//     return Math.sign(-3);
 // }
 
 // console.log(getsign());
@@ -172,7 +172,7 @@
 // console.log(cart);
 
 // let shop = ["bags", "shoes", "jean", "shorts"]
-// shop.shift;
+// shop.shift("steve", "ay");
 
 // console.log(shop);
 
@@ -183,7 +183,7 @@
 
 
 // const fruits = ["food", "clothes", "drums"]
-// let fruit = 2;
+// let fruits = 2;
 
 // console.log(fruits.at(2));
 
@@ -221,12 +221,264 @@
 // const sortedmonth = month.toSorted();
 // console.log(sortedmonth);
 
-const array = [1, 2, 3, 4, 5, 6];
+// const array = [1, 2, 3, 4, 5, 6];
 
-const even = (element) => element % 2 === 0;
+// const even = (element) => element % 2 === 0;
 
-console.log(array.some(even));
+// console.log(array.some(even));
+
+// confirm("Are you sure you want to sign it? ")
+// prompt("Type in your details below")
+
+// var myVariable;
+// var myVariable = 10;
+ 
+
+// console.log(myVariable);
+
+// var myvariable = 10;
+// console.log(myvariable++);
+// console.log(++myvariable)
+
+// document.write(myvariable);
+
+
+// var youlikemeat = false;
+// var num = 10
+
+// if (youlikemeat){
+//     document.write("Yes you like meat")
+// }
+// else{
+//     document.write("you dont like meat")
+// }
+
+// var myAge = 20 ;
+
+// if (myAge > 20 &&  myAge < 30){
+//     document.write("you are over 30");
+// }
+// else if(myAge > 20){
+//     document.write("your are over 30");
+// }
+// else if (myAge > 10){
+//     document.write("you are over 10 ");
+// }
+// else{
+//     document.write("you are not within age limit");
+// }
 
 
 
+// var age = 5;
 
+// while (age < 10); {
+//     console.log("You are still a learner");
+//     age++;
+// }
+
+// document.write("you are now a big man")
+
+
+// var links = document.getElementsByTagName("a");
+
+// for(i=1; i < links.length; i++) {
+//    console.log("This is link number" + i); 
+// }
+
+// document.write("all links now looped");
+
+
+// for(i=0; i < 10; i++){
+
+
+//     if(i === 5 && i === 3){
+//         continue;
+//     }
+//     console.log(i);
+
+//     if(i===7){
+//         break;
+//     }
+// }
+// console.log("i have broken the loop ")
+
+// var links = document.getElementsByName("a");
+
+// for (i = 0; i < links.length; i++){
+//     links[i].className = "link-" + i;
+// }
+
+// function getAverage(a,b){
+   
+
+//     var average = (a + b)/2  //local variable
+//     console.log(average);
+//     return average;
+// }
+
+// var myAverage = getAverage(20,10);   // global varaible
+
+// console.log(myAverage);
+
+
+// function logResult(){
+//     console.log("My result is " + myAverage + " it means i have succeeded ")
+
+// }
+
+// logResult();
+
+
+// function getmathpi(){
+//     return Math.PI;
+// }
+// document.write(getmathpi());
+
+// var a = "stephen";
+// var b = 10;
+
+// if (! isNaN(a)){
+//     console.log("this is a number "  + (a * b));
+
+// } else {
+    
+//     console.log("This is not a Number ");
+// }
+
+// var mystring = 'i am a "fun" string'
+
+// console.log(mystring.toUpperCase())
+
+
+// var mystring = "i am a ninja boy"
+//  if(mystring.indexOf("ninja")===-1){
+
+ 
+//     console.log("the word 'ninja' is not in the string" )
+//  }
+//  else {
+//     console.log("the word ninja is at position " + mystring.indexOf("ninja"))
+//  }
+
+
+//  var string = "hello, world";
+//  console.log(string.slice(2,9))
+
+
+//  var fruits = "steve, dml, bozbaby oreva, ola"
+//  console.log(fruits.split(","))
+
+//  var myarray = [];
+
+//  myarray[0] = 24;
+//  myarray[1] = 25;
+//  myarray[2] = "stephen"
+
+//  console.log(myarray)
+
+//  myarray[2] = "oreva"
+//  console.log(myarray)
+
+//  myarray.push("stephen", "iphone 11")
+//  console.log(myarray.length)
+
+//  console.log(myarray.sort())
+//  console.log(myarray.reverse())
+
+
+//  var mycar = new Object();
+//  mycar.me = "tesla";
+//  mycar.driver = "shauwm";
+//  mycar.drive = function() {console.log("now driving");};
+
+//  mycar.drive();
+
+//  var mycar2 = {
+//     maxspeed: 30, 
+//     driver: "ninja", 
+//     drive:function(speed, time) 
+//        {console.log(speed * time);   
+//     },
+//     test:function() {
+//         console.log(this);
+//     }
+// };
+// mycar2.test();
+// console.log(mycar2.maxspeed); 
+// mycar2.drive(50,3);
+
+
+// var mycar3 = {
+//     maxspeed: 30, 
+//     driver: "ninja", 
+//     logDriver:function() {console.log("This is my driver " + this.driver );}
+// };
+
+// mycar3.logDriver();
+
+
+// var Car = function(maxspeed, driver){
+//     this.maxspeed = maxspeed;
+//     this.driver = driver;
+//     this.drive = function(speed, time) {console.log(speed * time);};
+//     this.logDriver = function() {console.log("this is my driver " + this.driver);};
+// }
+
+
+// var myCar = new Car (70, "Humphrey");
+// var myCar2 = new Car (30, "Diolpa")
+// var myCar3 = new Car (56, "Lois")
+// var myCar4 = new Car (34, "drool")
+
+// myCar.drive(30, 6)
+// myCar4.logDriver();
+
+ var myDate = new Date();
+ console.log(myDate)
+
+
+ var myPastdate= new Date(2000, 7, 12 ,  15, 45, 45);
+ var myFuturedate = new Date(2090, 7, 12 ,  15, 45, 45);
+
+ console.log(myPastdate);
+ console.log(myFuturedate);
+
+
+ var birthday = new Date (2000, 7, 12 ,  15, 45, 45);
+ var birthday2 = new Date (2000, 7, 12 ,  15, 45, 45);
+
+ console.log(birthday.getMonth());
+ console.log(birthday.getDate());
+ console.log(birthday.getFullYear());
+ console.log(birthday.getHours());
+ console.log(birthday.getTime());
+ console.log(birthday.getDay());
+
+ if (birthday.getTime() == birthday2.getTime()){
+    console.log("Birthdays are equal");
+ }
+ else{
+    console.log("birthdays are not equal")
+ }
+
+ document.getElementsByClassName("stephen");
+
+ var myelement = document.getElementsByClassName("stephen");
+
+//  console.log(myelement)
+
+ var myP = myelement[0].getElementsByTagName("p");
+
+//  console.log(myP);
+
+ myP[0].innerHTML = "My name is stephen";
+
+
+ document.getElementById("steve")
+
+ var myG = document.getElementById("steve")
+
+ console.log(myG)
+
+ myG.innerHTML = "my name is not stephen"
