@@ -54,7 +54,7 @@
 //   console.log(getBoot2());
 
 // function getStevepi() {
-//     return Math.pow(26, 9);
+//     return Math.pow(20, 9);
 // }
 // console.log(getStevepi());
 
@@ -226,6 +226,77 @@
 // const even = (element) => element % 2 === 0;
 
 // console.log(array.some(even));
+
+
+// console.log(Array.isArray(["stephen", "jesutofunmi"]));
+
+// console.log(Array.of("stephen", "hope"))
+
+// const array = ["stephen", 45, "mum", "dad" ]
+// let index = 2
+
+// console.log(`an index of ${index} returns a ${array.at(index)}`);
+
+// const str = "mum"
+// const str1 = "is"
+// const str2 = "good"
+// const str3 = `${str}`.concat(`${str1} ${str2}`)
+
+// console.log(str3);
+
+
+// const fill = [1,2,3,4]
+
+// console.log(fill.fill(1,0));
+
+
+// const find = [1, 2, 40, 30]
+
+// const look = ((element) => element > 10)
+
+// console.log(find.find(look));
+
+// // 0r
+// const num = [1, 40, 180]
+
+// let num1 = num.find((age) => age > 10)
+
+// console.log(num1);
+
+// const word = ["stephen", "ayomitan", "Adedayo", "Alu" ]
+
+// const filt = word.filter((word) => word.length > 3)
+
+// console.log(filt);
+
+// // or
+
+// const sent = ["stephen", "ayomitan", "Adedayo", "Alu"]
+
+// let sent1 = (word) => word.length > 6
+
+// console.log(sent.filter(sent1));
+
+
+// const inc = ["stephen", "ayomiposi"]
+
+// console.log(inc.includes("stephen"));
+
+
+// const no = [1, 2, 3, 4, 5, 6]
+
+// const even = (even) => even % 2 === 0
+
+// console.log(no.some(even));
+
+
+
+// const ind = [1, 39, 400]
+
+// const fin = ind.findIndex((age) => age > 13)
+
+// console.log(fin);
+
 
 // confirm("Are you sure you want to sign it? ")
 // prompt("Type in your details below")
@@ -402,9 +473,10 @@
 //     },
 //     test:function() {
 //         console.log(this);
-//     }
+//     },
+//        logDriver: function() {console.log("This is my driver" + this.driver)}
 // };
-// mycar2.test();
+// mycar2.logDriver();
 // console.log(mycar2.maxspeed); 
 // mycar2.drive(50,3);
 
@@ -418,7 +490,7 @@
 // mycar3.logDriver();
 
 
-// var Car = function(maxspeed, driver){
+// const Car = function(maxspeed, driver){
 //     this.maxspeed = maxspeed;
 //     this.driver = driver;
 //     this.drive = function(speed, time) {console.log(speed * time);};
@@ -426,59 +498,121 @@
 // }
 
 
-// var myCar = new Car (70, "Humphrey");
-// var myCar2 = new Car (30, "Diolpa")
-// var myCar3 = new Car (56, "Lois")
-// var myCar4 = new Car (34, "drool")
+// const myCar = new Car (70, "Humphrey");
+// const myCar2 = new Car (30, "Diolpa")
+// const myCar3 = new Car (56, "Lois")
+// const myCar4 = new Car (34, "drool")
 
 // myCar.drive(30, 6)
 // myCar4.logDriver();
 
- var myDate = new Date();
- console.log(myDate)
+//  var myDate = new Date();
+//  console.log(myDate)
+
+// const myDate = Date();
+// console.log(myDate);
+
+//  var myPastdate= new Date(2000, 7, 12 ,  15, 45, 45);
+//  var myFuturedate = new Date(2090, 7, 12 ,  15, 45, 45);
+
+//  console.log(myPastdate);
+//  console.log(myFuturedate);
 
 
- var myPastdate= new Date(2000, 7, 12 ,  15, 45, 45);
- var myFuturedate = new Date(2090, 7, 12 ,  15, 45, 45);
+//  var birthday = new Date (2000, 7, 12 ,  15, 45, 45);
+//  var birthday2 = new Date (2000, 7, 12 ,  15, 45, 45);
 
- console.log(myPastdate);
- console.log(myFuturedate);
+//  console.log(birthday.getMonth());
+//  console.log(birthday.getDate());
+//  console.log(birthday.getFullYear());
+//  console.log(birthday.getHours());
+//  console.log(birthday.getTime());
+//  console.log(birthday.getDay());
 
+//  if (birthday.getTime() == birthday2.getTime()){
+//     console.log("Birthdays are equal");
+//  }
+//  else{
+//     console.log("birthdays are not equal")
+//  }
 
- var birthday = new Date (2000, 7, 12 ,  15, 45, 45);
- var birthday2 = new Date (2000, 7, 12 ,  15, 45, 45);
+//  document.getElementsByClassName("stephen");
 
- console.log(birthday.getMonth());
- console.log(birthday.getDate());
- console.log(birthday.getFullYear());
- console.log(birthday.getHours());
- console.log(birthday.getTime());
- console.log(birthday.getDay());
+//  var myelement = document.getElementsByClassName("stephen");
 
- if (birthday.getTime() == birthday2.getTime()){
-    console.log("Birthdays are equal");
- }
- else{
-    console.log("birthdays are not equal")
- }
+// //  console.log(myelement)
 
- document.getElementsByClassName("stephen");
+//  var myP = myelement[0].getElementsByTagName("p");
 
- var myelement = document.getElementsByClassName("stephen");
+// //  console.log(myP);
 
-//  console.log(myelement)
-
- var myP = myelement[0].getElementsByTagName("p");
-
-//  console.log(myP);
-
- myP[0].innerHTML = "My name is stephen";
+//  myP[0].innerHTML = "My name is stephen";
 
 
- document.getElementById("steve")
+//  document.getElementById("steve")
 
- var myG = document.getElementById("steve")
+//  var myG = document.getElementById("steve")
 
- console.log(myG)
+//  console.log(myG)
 
- myG.innerHTML = "my name is not stephen"
+//  myG.innerHTML = "my name is not stephen"
+
+
+// const steve = 'Instabul'
+
+// console.log(`EN-US: ${steve.toLocaleLowerCase()}`);
+
+
+// const ay = 'England'
+
+// console.log(`EN-US: ${ay.toLocaleUpperCase()}`);
+
+// const jose = new String('football')
+
+// console.log(jose.toString());
+
+// const mood = "happy  "
+// console.log(`i am ${mood.repeat(3)}`);
+
+// const string1 = "stephen"
+// const string2 = "Alu"
+
+// console.log(string1.concat(" " , string2))
+
+// const ayomitan = "i am a good boy"
+// console.log(ayomitan[5]);
+
+// const mary = "mary is a good girl."
+// console.log(mary.endsWith("girl."));
+
+// const skimma = "real baller of life"
+// console.log(skimma.startsWith("ball"));
+
+// const mum = "she is a good woman and real cook"
+// console.log(mum.replace('she', 'mummy alu')); 
+
+// const dad = "dad is a good man and a real man"
+// console.log((dad.replaceAll('man', 'dad')));
+
+// const stella = "stella is a good sister"
+// console.log(stella.slice(2,16));
+
+// const josephine = "mum fibby is a real mother"
+// console.log(josephine.toUpperCase());
+// // to lowercase()
+
+// const fibby = "germany"
+// console.log(`fibby:i am from ${fibby.toLocaleUpperCase()}`);
+// // to localelowercase
+
+// const mayor = ["bola"]
+// console.log(mayor.toString());
+
+
+// const fife = "big boy"
+// console.log(fife.valueOf());
+
+
+// const jayden = "stubborn boy"
+// console.log(`${jayden} is ${jayden.length}`);
+
